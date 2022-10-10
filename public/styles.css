@@ -5,12 +5,13 @@
       padding: 0 20px;
       font-family: 'Noto Serif', serif;
       max-width: 1200px;
+      background-color: rgb(255, 183, 227);
     }
     p, h1, h2, h3, a, ul{
       margin: 0;
       padding: 0;
       text-decoration: none;
-      color: #222;
+      color: rgb(0, 0, 0);
     }
 
     /* nav & footer styles */
@@ -19,7 +20,7 @@
       justify-content: space-between;
       margin-bottom: 60px;
       padding-bottom: 10px;
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid rgb(124, 54, 121);
       text-transform: uppercase;
     }
     nav ul{
@@ -35,11 +36,11 @@
       font-size: 3em;
     }
     nav p, nav a{
-      color: #777;
+      color: rgb(83, 83, 83);
       font-weight: 300;
     }
     footer{
-      color: #777;
+      color: rgb(83, 83, 83);
       text-align: center;
       margin: 80px auto 20px;
     }
@@ -61,6 +62,7 @@
       padding-left: 30px;
       border-left: 6px solid crimson;
     }
+    
     .blogs a:hover h3{
       color: crimson;
     }
@@ -73,12 +75,15 @@
       position: absolute;
       top: 0;
       right: 0;
-      border-radius: 50%;
+      border-radius: 30%;
       padding: 8px;
+      color: grey;
     }
     .delete:hover{
       cursor: pointer;
       box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+      color: red;
+      background-color: pink;
     }
 
     /* create styles */
@@ -93,6 +98,7 @@
       margin: 10px 0;
       padding: 8px;
     }
+    
     .create-blog label{
       display: block;
       margin-top: 24px;
@@ -108,4 +114,5 @@
       border: 0;
       font-size: 1.2em;
       cursor: pointer;
+      border-radius: 20%;
     }
